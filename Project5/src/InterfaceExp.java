@@ -1,6 +1,6 @@
 interface Add{
 		abstract void addition();
-		interface multiply{
+interface multiply{
 			abstract void mul();
 		}
 		

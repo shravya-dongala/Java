@@ -1,15 +1,11 @@
-
-class MyClass {
+class Staticclass{
     static int i;
-
     static {
         i = variable();
     }
-
     static int variable() {
-        return 42;
+        return 4;
     }
-
     static int getStaticVariable() {
         return i;
     }
